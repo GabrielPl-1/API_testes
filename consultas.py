@@ -40,5 +40,3 @@ def modifica_nome(nome,id):
     cursor.execute(sql,[nome,id])
     conexao.commit()
     return {"message":"Update feito com sucesso"}
-
-modifica_nome('Tio patinhas', 6)
